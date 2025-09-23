@@ -96,3 +96,17 @@
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.span-footer-logo {
+  color: var(--cloud);
+}
+
+.business-info {
+  line-height: 1.5;
+  color: var(--cloud);
+  letter-spacing: 0.02em;
+}
