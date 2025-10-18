@@ -31,7 +31,6 @@
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  /* align-items: center; */
 }
 
 .nav {
@@ -66,7 +65,6 @@
 .list {
   list-style: none;
   padding-left: 0;
-  /* margin: 0; */
 }
 
 .menu-link {
@@ -133,10 +131,10 @@
   background-color: var(--iris);
 }
 
-/* .hover-focus:hover,
-.hover-focus:focus {
-  color: var(--ocean);
-} */
+.hover-focus-btn:hover,
+.hover-focus-btn:focus {
+  background-color: var(--ocean);
+}
 
 .about-title {
   padding: 120px 0;
@@ -230,11 +228,18 @@
 }
 
 .name-title {
-  text-align: center;
   margin-bottom: 8px;
 }
 
 .inform-text {
+}
+
+.name-worker {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.work-position {
   text-align: center;
 }
 
